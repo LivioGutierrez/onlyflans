@@ -274,7 +274,7 @@ nav ul li {
     height: 100vh;
     background-image: url("../img/hand-pouring-chocolate-homemade-cake.jpg"); 
     background-repeat: no-repeat;
-    background-position: center center; 
+    background-position: center; 
     position: relative;
     top: 0%;
     /* background-attachment:fixed ; */
