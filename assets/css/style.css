@@ -1,5 +1,6 @@
 html,
 body {
+    background-color: #E0C196;
     height: 100%;
 }
 
@@ -80,7 +81,7 @@ img {
     background-size: cover;
     display: flex;
     align-items: center;
-    color: #ffffff;
+    color: #000000;
 }
 
 .hamburger {
@@ -124,10 +125,11 @@ img {
 }
 
 .sidebar { /*el fondo del menu*/
-    z-index: 2;
+    z-index: 999;
     height: 100vh;
     width: 320px;
-    background: #EDACAC;
+    background: #B0F2C2;
+    opacity: 0.90;
     position: fixed;
     top: 0;
     left: 0;
@@ -234,7 +236,7 @@ nav ul li {
 
 .sidebar__menu ul li a {
     padding-left: 5%;
-    color: #fff;
+    color: #000000;
     text-decoration: none;
 }
 .sidebar__menu li {
@@ -272,18 +274,49 @@ nav ul li {
 .contenido{
     width: 100%;
     height: 100vh;
-    background-image: url("../img/hand-pouring-chocolate-homemade-cake.jpg"); 
-    background-repeat: no-repeat;
-    background-position: center; 
+    background-color: #E0C196;
     position: relative;
     top: 0%;
     /* background-attachment:fixed ; */
 }
 
-.texto-contenido{
-    color: #ffffff;
-    text-shadow: #000 -5px 0px 5px;
+.flan-chocolate{
+    position: relative;
+    bottom: 8px;
+    z-index: 3;
+    width: 70%;
+}
+.plato{
+    position: relative;
+    bottom: 150px;
+    z-index: 2;
+}
+.contenido p, h1{
+    position: relative;
+    bottom: 15%;
 }
 .contenido p{
-    font-size: 1.2rem;
+    font-size: 1rem;
+}
+
+.productos{
+    position: relative;
+    left: 240px;
+    bottom: 150px;
+    width: 147px;
+    height: 40px;
+    background-color: #D3AE7B;
+}
+
+.productos p {
+    padding-top: 4%;
+    padding-right: 10%;
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+
+.productos img {
+    position: relative;
+    bottom: 50%;
+    left: 100%;
 }
