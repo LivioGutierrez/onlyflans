@@ -1,23 +1,13 @@
 html,
 body {
     background-color: #E0C196;
-    height: 100%;
 }
 
 body {
-    min-height: 100%;
     font-family: 'Rozha One', serif;
 }
 
-* {
-    box-sizing: border-box;
-}
 
-img {
-    max-width: 100%;
-    bottom: -14px;
-    position: relative;
-}
 
 .card {
     position: absolute;
@@ -246,10 +236,6 @@ nav ul li {
 }
 
 
-.arriba {
-    margin-top: 15%;
-}
-
 .menu-control {
     display: none;
 
@@ -363,6 +349,10 @@ nav ul li {
 }
 
 @media (min-width: 361px) and (max-width: 500px) { /*mi celu*/
+    .logo{
+        position: absolute;
+        left: 15%;
+    }
     .torta{
         width: 35%;
         position: absolute;
@@ -385,7 +375,7 @@ nav ul li {
         width: 35%;
         position: absolute;
         bottom: 55%;
-        left: 68%;
+        left: 90%;
         transform: rotate(-10deg);
         filter: drop-shadow(#000 -2px 0px 2px);
     }
@@ -394,7 +384,7 @@ nav ul li {
         width: 35%;
         position: absolute;
         bottom: 48%;
-        left: 80%;
+        left: 100%;
         transform: rotate(-20deg);
         filter: drop-shadow(#000 -2px 0px 2px);
     }
@@ -402,7 +392,7 @@ nav ul li {
     .flan-chocolate {
         position: absolute;
         top: 24%;
-        left: 22%;
+        left: 35%;
         z-index: 3;
         width: 60%;
     }
@@ -410,26 +400,28 @@ nav ul li {
     .plato {
         width: 80%;
         position: absolute;
-        bottom: 40%;
+        bottom: 39%;
+        left: 24%;
         z-index: 2;
     }
     
     .contenido h1 {
         position: absolute;
         bottom: 38%;
-        left: 15%;
+        left: 26%;
     }
     
     .contenido p {
         position: absolute;
         top: 62%;
+        left: 26%;
         font-size: 1rem;
     }
 
     .productos {
         position: absolute;
-        left: 58%;
-        bottom: 5%;
+        left: 80%;
+        bottom: -7%;
         width: 180px;
         height: 40px;
         background-color: #D3AE7B;
@@ -449,5 +441,10 @@ nav ul li {
         left: 96%;
         transform: rotate(-20deg);
         filter: drop-shadow(#000 -2px 0px 2px);
+    }
+
+    .card{
+        position: absolute;
+        top: 5%;
     }
 }
