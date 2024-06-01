@@ -324,3 +324,30 @@ nav ul li {
         filter: drop-shadow(#000 -2px 0px 2px);
     }
 }
+
+@media (max-width: 500px) {
+    .productos {
+        position: absolute;
+        left: 53%;
+        bottom: 2%;
+        width: 180px;
+        height: 40px;
+        background-color: #D3AE7B;
+        box-shadow: #000 -5px 5px 10px;
+    }
+
+    .productos p {
+        padding-top: 1%;
+        padding-right: 35%;
+        font-size: 1.4rem;
+        color: #ffffff;
+    }
+    
+    .productos img {
+        position: relative;
+        bottom: 25%;
+        left: 96%;
+        transform: rotate(-20deg);
+        filter: drop-shadow(#000 -2px 0px 2px);
+    }
+}
