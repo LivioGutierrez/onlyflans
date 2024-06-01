@@ -301,7 +301,7 @@ nav ul li {
 @media (max-width: 360px) {/*mi celu*/
     .productos {
         position: absolute;
-        left: 53%;
+        left: 50%;
         top: 100%;
         width: 180px;
         height: 40px;
