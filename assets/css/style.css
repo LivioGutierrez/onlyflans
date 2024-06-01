@@ -379,9 +379,8 @@ nav ul li {
     .kopkey2{
         width: 30%;
         position: absolute;
-        bottom: 48%;
-        margin-left: 60%;
-        transform: rotate(-20deg);
+        bottom: 50%;
+        margin-left: 67%;
         filter: drop-shadow(#000 -2px 0px 2px);
         overflow: hidden;
     }
