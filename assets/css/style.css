@@ -289,6 +289,7 @@ nav ul li {
 .contenido h1{
     position: absolute;
     bottom: 38%;
+    left: 15%;
 }
 .contenido p{
     position: absolute;
@@ -298,17 +299,17 @@ nav ul li {
 
 .productos{
     position: absolute;
-    left: 62%;
+    left: 50%;
     bottom: 2%;
-    width: 160px;
+    width: 260px;
     height: 40px;
     background-color: #D3AE7B;
     box-shadow: #000 -5px 5px 10px;
 }
 
 .productos p {
-    padding-top: 4%;
-    padding-right: 28%;
+    padding-top: 1%;
+    padding-right: 58%;
     font-size: 1.4rem;
     color: #ffffff;
 }
@@ -316,7 +317,7 @@ nav ul li {
 .productos img {
     position: relative;
     bottom: 10%;
-    left: 110%;
+    left: 63%;
     transform: rotate(-20deg);
     filter: drop-shadow(#000 -2px 0px 2px);
 }
