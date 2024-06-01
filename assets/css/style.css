@@ -326,7 +326,7 @@ nav ul li {
 @media (min-width: 361px) and (max-width: 500px) { /*mi celu*/
     .flan-chocolate {
         position: absolute;
-        top: 19%;
+        top: 18%;
         left: 16%;
         z-index: 3;
         width: 70%;
