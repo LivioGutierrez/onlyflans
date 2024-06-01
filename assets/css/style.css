@@ -298,11 +298,11 @@ nav ul li {
     font-size: 1rem;
 }
 
-@media (max-width: 360px) {
+@media (min-width: 360px) {
     .productos {
         position: absolute;
         left: 53%;
-        bottom: 2%;
+        top: 90%;
         width: 180px;
         height: 40px;
         background-color: #D3AE7B;
@@ -325,7 +325,7 @@ nav ul li {
     }
 }
 
-@media (max-width: 500px) {
+@media (min-width: 500px) {
     .productos {
         position: absolute;
         left: 53%;
@@ -333,7 +333,7 @@ nav ul li {
         width: 180px;
         height: 40px;
         background-color: #D3AE7B;
-        box-shadow: #000 -5px 5px 10px;
+        box-shadow: #fd0505 -5px 5px 10px;
     }
 
     .productos p {
