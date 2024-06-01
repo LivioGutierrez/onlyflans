@@ -98,14 +98,15 @@ img {
     z-index: 1;
 }
 
-.hamburger__icon{
+.hamburger__icon {
     display: inline-block;
     height: 2px;
     width: 24px;
     background: #ffffff;
     border-radius: 2px;
 }
-.hamburger__icon2{
+
+.hamburger__icon2 {
     display: inline-block;
     height: 2px;
     width: 24px;
@@ -113,7 +114,8 @@ img {
     border-radius: 2px;
     transform: rotate(40deg);
 }
-.hamburger__icon3{
+
+.hamburger__icon3 {
     display: inline-block;
     position: relative;
     bottom: 90%;
@@ -124,7 +126,8 @@ img {
     transform: rotate(140deg);
 }
 
-.sidebar { /*el fondo del menu*/
+.sidebar {
+    /*el fondo del menu*/
     z-index: 999;
     height: 100vh;
     width: 320px;
@@ -233,15 +236,17 @@ nav ul li {
     color: #000000;
     text-decoration: none;
 }
+
 .sidebar__menu li {
     padding-top: 15%;
 }
+
 .sidebar__menu ul {
     margin-top: 30%;
 }
 
 
-.arriba{
+.arriba {
     margin-top: 15%;
 }
 
@@ -255,17 +260,17 @@ nav ul li {
 
         &+.sidebar .sidebar__close {
             transform: translatex(0) rotate(45deg);
-            
+
         }
 
         &+.sidebar .sidebar__menu a {
             transform: translatex(0);
         }
     }
-    
+
 }
 
-.contenido{
+.contenido {
     width: 100%;
     height: 100vh;
     background-color: #E0C196;
@@ -274,30 +279,48 @@ nav ul li {
     /* background-attachment:fixed ; */
 }
 
-.flan-chocolate{
+.flan-chocolate {
     position: absolute;
-    top	: 21%;
+    top: 21%;
     left: 16%;
     z-index: 3;
     width: 70%;
 }
-.plato{
+
+.plato {
     position: absolute;
     bottom: 40%;
     z-index: 2;
 }
-.contenido h1{
+
+.contenido h1 {
     position: absolute;
     bottom: 38%;
     left: 15%;
 }
-.contenido p{
+
+.contenido p {
     position: absolute;
     top: 62%;
     font-size: 1rem;
 }
 
-.productos{
+@media only screen and (max-width: 767px) {
+
+    /* Estilos CSS para dispositivos móviles */
+    /* Por ejemplo: */
+    .productos {
+        position: absolute;
+        left: 50%;
+        bottom: 2%;
+        width: 260px;
+        height: 40px;
+        background-color: #D3AE7B;
+        box-shadow: #eb0202 -5px 5px 10px;
+    }
+}
+
+.productos {
     position: absolute;
     left: 50%;
     bottom: 2%;
