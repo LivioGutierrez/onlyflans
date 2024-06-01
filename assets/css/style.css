@@ -276,24 +276,24 @@ nav ul li {
 
 .flan-chocolate{
     position: absolute;
-    top	: 10%;
+    top	: 15%;
     left: 16%;
     z-index: 3;
     width: 70%;
 }
 .plato{
     position: absolute;
-    bottom: 46%;
+    bottom: 40%;
     z-index: 2;
 }
 .contenido h1{
     position: absolute;
-    bottom: 42%;
+    bottom: 38%;
     left: 15%;
 }
 .contenido p{
     position: absolute;
-    top: 60%;
+    top: 62%;
     font-size: 1rem;
 }
 
