@@ -270,14 +270,7 @@ nav ul li {
 
 }
 
-.contenido {
-    width: 100%;
-    height: 100vh;
-    background-color: #E0C196;
-    position: absolute;
-    top: 0%;
-    /* background-attachment:fixed ; */
-}
+
 
 .flan-chocolate {
     position: absolute;
