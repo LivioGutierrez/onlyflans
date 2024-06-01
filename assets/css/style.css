@@ -356,6 +356,7 @@ nav ul li {
         left: -2%;
         transform: rotate(15deg);
         filter: drop-shadow(#000 -2px 0px 2px);
+        filter: blur(0.8px);
     }
 
     .kopkey{
@@ -365,6 +366,7 @@ nav ul li {
         left: -10%;
         transform: rotate(15deg);
         filter: drop-shadow(#000 -2px 0px 2px);
+        filter: blur(0.8px);
     }
 
     .torta-de-chocolate{
@@ -374,6 +376,7 @@ nav ul li {
         margin-left: 57%;
         transform: rotate(-10deg);
         filter: drop-shadow(#000 -2px 0px 2px);
+        filter: blur(0.8px);
     }
 
     .kopkey2{
@@ -383,6 +386,7 @@ nav ul li {
         margin-left: 67%;
         filter: drop-shadow(#000 -2px 0px 2px);
         overflow: hidden;
+        filter: blur(0.8px);
     }
 
     .flan-chocolate {
