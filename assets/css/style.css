@@ -269,35 +269,38 @@ nav ul li {
     width: 100%;
     height: 100vh;
     background-color: #E0C196;
-    position: relative;
+    position: absolute;
     top: 0%;
     /* background-attachment:fixed ; */
 }
 
 .flan-chocolate{
-    position: relative;
-    top	: 8px;
-    left: 10px;
+    position: absolute;
+    top	: 15%;
+    left: 16%;
     z-index: 3;
     width: 70%;
 }
 .plato{
-    position: relative;
-    bottom: 150px;
+    position: absolute;
+    bottom: 46%;
     z-index: 2;
 }
-.contenido p, h1{
-    position: relative;
-    bottom: 15%;
+.contenido h1{
+    position: absolute;
+    bottom: 42%;
+    left: 15%;
 }
 .contenido p{
+    position: absolute;
+    bottom: 20%;
     font-size: 1rem;
 }
 
 .productos{
-    position: relative;
-    left: 250px;
-    bottom: 90px;
+    position: absolute;
+    left: 62%;
+    bottom: 10%;
     width: 160px;
     height: 40px;
     background-color: #D3AE7B;
