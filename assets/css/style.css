@@ -298,42 +298,29 @@ nav ul li {
     font-size: 1rem;
 }
 
-@media only screen and (max-width: 767px) {
-
-    /* Estilos CSS para dispositivos móviles */
-    /* Por ejemplo: */
+@media (max-width: 360px) {
     .productos {
         position: absolute;
-        left: 50%;
+        left: 53%;
         bottom: 2%;
-        width: 260px;
+        width: 180px;
         height: 40px;
         background-color: #D3AE7B;
-        box-shadow: #eb0202 -5px 5px 10px;
+        box-shadow: #000 -5px 5px 10px;
     }
-}
 
-.productos {
-    position: absolute;
-    left: 50%;
-    bottom: 2%;
-    width: 260px;
-    height: 40px;
-    background-color: #D3AE7B;
-    box-shadow: #000 -5px 5px 10px;
-}
-
-.productos p {
-    padding-top: 1%;
-    padding-right: 58%;
-    font-size: 1.4rem;
-    color: #ffffff;
-}
-
-.productos img {
-    position: relative;
-    bottom: 10%;
-    left: 63%;
-    transform: rotate(-20deg);
-    filter: drop-shadow(#000 -2px 0px 2px);
+    .productos p {
+        padding-top: 1%;
+        padding-right: 35%;
+        font-size: 1.4rem;
+        color: #ffffff;
+    }
+    
+    .productos img {
+        position: relative;
+        bottom: 25%;
+        left: 96%;
+        transform: rotate(-20deg);
+        filter: drop-shadow(#000 -2px 0px 2px);
+    }
 }
