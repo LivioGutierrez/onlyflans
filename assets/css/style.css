@@ -270,25 +270,7 @@ nav ul li {
 
 }
 
-.plato {
-    position: absolute;
-    bottom: 40%;
-    z-index: 2;
-}
-
-.contenido h1 {
-    position: absolute;
-    bottom: 38%;
-    left: 15%;
-}
-
-.contenido p {
-    position: absolute;
-    top: 62%;
-    font-size: 1rem;
-}
-
-@media (max-width: 360px) {/*mi celu*/
+@media (max-width: 360px) {/*otro celu*/
     .flan-chocolate {
         position: absolute;
         top: 17%;
@@ -296,6 +278,24 @@ nav ul li {
         z-index: 3;
         width: 70%;
     }
+
+    .plato {
+        position: absolute;
+        bottom: 40%;
+        z-index: 2;
+    }
+    
+    .contenido h1 {
+        position: absolute;
+        bottom: 38%;
+    }
+    
+    .contenido p {
+        position: absolute;
+        top: 62%;
+        font-size: 1rem;
+    }
+
     .productos {
         position: absolute;
         left: 48%;
@@ -303,7 +303,7 @@ nav ul li {
         width: 180px;
         height: 40px;
         background-color: #D3AE7B;
-        box-shadow: #da0c0c -5px 5px 10px;
+        box-shadow: #000000 -5px 5px 10px;
     }
 
     .productos p {
@@ -329,6 +329,24 @@ nav ul li {
         left: 16%;
         z-index: 3;
         width: 70%;
+    }
+
+    .plato {
+        position: absolute;
+        bottom: 40%;
+        z-index: 2;
+    }
+    
+    .contenido h1 {
+        position: absolute;
+        bottom: 38%;
+        left: 15%;
+    }
+    
+    .contenido p {
+        position: absolute;
+        top: 62%;
+        font-size: 1rem;
     }
 
     .productos {
