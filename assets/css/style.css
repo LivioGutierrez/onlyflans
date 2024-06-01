@@ -205,12 +205,6 @@ img {
                     opacity: 1;
                 }
             }
-
-            @for $i from 1 through 5 {
-                &:nth-child(#{$i}) {
-                    transition-delay: $i * 0.05s;
-                }
-            }
         }
     }
 
@@ -282,7 +276,8 @@ nav ul li {
 
 .flan-chocolate{
     position: relative;
-    bottom: 8px;
+    top	: 8px;
+    left: 10px;
     z-index: 3;
     width: 70%;
 }
@@ -301,22 +296,25 @@ nav ul li {
 
 .productos{
     position: relative;
-    left: 240px;
-    bottom: 150px;
-    width: 147px;
+    left: 270px;
+    bottom: 90px;
+    width: 160px;
     height: 40px;
     background-color: #D3AE7B;
+    box-shadow: #000 -5px 5px 10px;
 }
 
 .productos p {
     padding-top: 4%;
-    padding-right: 10%;
+    padding-right: 28%;
     font-size: 1.4rem;
     color: #ffffff;
 }
 
 .productos img {
     position: relative;
-    bottom: 50%;
-    left: 100%;
+    bottom: 10%;
+    left: 110%;
+    transform: rotate(-20deg);
+    filter: drop-shadow(#000 -2px 0px 2px);
 }
