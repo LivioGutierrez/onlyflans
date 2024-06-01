@@ -273,15 +273,52 @@ nav ul li {
 
 
 @media (max-width: 360px) {/*otro celu*/
+    .torta{
+        width: 35%;
+        position: absolute;
+        bottom: 60%;
+        left: -2%;
+        transform: rotate(15deg);
+        filter: drop-shadow(#000 -2px 0px 2px);
+    }
+
+    .kopkey{
+        width: 40%;
+        position: absolute;
+        bottom: 50%;
+        left: -15%;
+        transform: rotate(15deg);
+        filter: drop-shadow(#000 -2px 0px 2px);
+    }
+
+    .torta-de-chocolate{
+        width: 35%;
+        position: absolute;
+        bottom: 55%;
+        left: 68%;
+        transform: rotate(-10deg);
+        filter: drop-shadow(#000 -2px 0px 2px);
+    }
+
+    .kopkey2{
+        width: 35%;
+        position: absolute;
+        bottom: 48%;
+        left: 80%;
+        transform: rotate(-20deg);
+        filter: drop-shadow(#000 -2px 0px 2px);
+    }
+
     .flan-chocolate {
         position: absolute;
-        top: 17%;
-        left: 16%;
+        top: 24%;
+        left: 22%;
         z-index: 3;
-        width: 70%;
+        width: 60%;
     }
 
     .plato {
+        width: 80%;
         position: absolute;
         bottom: 40%;
         z-index: 2;
