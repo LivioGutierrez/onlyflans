@@ -349,10 +349,6 @@ nav ul li {
 }
 
 @media (min-width: 361px) and (max-width: 500px) { /*mi celu*/
-    .logo{
-        position: absolute;
-        left: 15%;
-    }
     .torta{
         width: 35%;
         position: absolute;
@@ -363,36 +359,37 @@ nav ul li {
     }
 
     .kopkey{
-        width: 40%;
+        width: 35%;
         position: absolute;
         bottom: 50%;
-        left: -15%;
+        left: -10%;
         transform: rotate(15deg);
         filter: drop-shadow(#000 -2px 0px 2px);
     }
 
     .torta-de-chocolate{
-        width: 35%;
+        width: 30%;
         position: absolute;
-        bottom: 55%;
-        left: 90%;
+        bottom: 57%;
+        margin-left: 57%;
         transform: rotate(-10deg);
         filter: drop-shadow(#000 -2px 0px 2px);
     }
 
     .kopkey2{
-        width: 35%;
+        width: 30%;
         position: absolute;
         bottom: 48%;
-        left: 100%;
+        margin-left: 60%;
         transform: rotate(-20deg);
         filter: drop-shadow(#000 -2px 0px 2px);
+        overflow: hidden;
     }
 
     .flan-chocolate {
         position: absolute;
         top: 24%;
-        left: 35%;
+        right: 25%;
         z-index: 3;
         width: 60%;
     }
@@ -401,27 +398,26 @@ nav ul li {
         width: 80%;
         position: absolute;
         bottom: 39%;
-        left: 24%;
         z-index: 2;
     }
     
+    .texto-contenido{
+        margin-top: 70%;
+    }
+
     .contenido h1 {
-        position: absolute;
-        bottom: 38%;
-        left: 26%;
+        width: 100%;
     }
     
     .contenido p {
-        position: absolute;
-        top: 62%;
-        left: 26%;
+        width: 100%;
         font-size: 1rem;
     }
 
     .productos {
         position: absolute;
-        left: 80%;
         bottom: -7%;
+        right: 0%;
         width: 180px;
         height: 40px;
         background-color: #D3AE7B;
@@ -429,8 +425,8 @@ nav ul li {
     }
 
     .productos p {
-        padding-top: 1%;
-        padding-right: 35%;
+        position: relative;
+        right: 35%;
         font-size: 1.4rem;
         color: #ffffff;
     }
@@ -438,13 +434,8 @@ nav ul li {
     .productos img {
         position: relative;
         bottom: 25%;
-        left: 96%;
+        left: 60%;
         transform: rotate(-20deg);
         filter: drop-shadow(#000 -2px 0px 2px);
-    }
-
-    .card{
-        position: absolute;
-        top: 5%;
     }
 }
