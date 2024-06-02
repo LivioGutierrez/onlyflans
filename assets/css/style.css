@@ -402,7 +402,7 @@ nav ul li {
     .plato {
         width: 80%;
         position: absolute;
-        bottom: 39%;
+        bottom: 41%;
         left: 8%;
         z-index: 2;
     }
@@ -446,7 +446,7 @@ nav ul li {
     }
 
     .contenedor-card{
-        margin-top: 25%;
+        margin-top: 35%;
         filter: drop-shadow(#000 2px 0px 2px);
     }
 }
