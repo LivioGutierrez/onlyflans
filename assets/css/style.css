@@ -496,8 +496,8 @@ nav ul li {
 
     .copkey {
         position: absolute;
-        top: 210%;
-        left: 52%;
+        margin-top: 10%;
+        margin-left: 52%;
         width: 50%;
         filter: drop-shadow(#000 -2px 0px 2px);
     }
