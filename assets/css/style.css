@@ -1,15 +1,16 @@
-html,
-body {
+html,body {
     height: 100%;
     background-color: #E0C196;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 body {
     min-height: 100%;
     font-family: 'Rozha One', serif;
 }
-
-
 
 /* .cards{
     position: absolute;
@@ -258,11 +259,150 @@ nav ul li {
 
 }
 
+/* ESCRITORIO */
+.torta {
+    position: absolute;
+    bottom: 25%;
+    left: 20%;
+    width: 20%;
+    transform: rotate(15deg);
+    filter: drop-shadow(#000 -2px 0px 2px);
+    filter: blur(0.8px);
+    animation: torta-flotante 3s infinite ease-in-out;
+}
 
+@keyframes torta-flotante {
+    0% {
+        transform: translateY(0) rotate(15deg);
 
-@media (max-width: 360px) {
+    }
+    50% {
+        transform: translateY(-10px) rotate(15deg); /* Flotar hacia arriba */
+    }
+    100% {
+        transform: translateY(0) rotate(15deg);
 
-    /*otro celu*/
+    }
+}
+
+.kopkey {
+    position: absolute;
+    bottom: 2%;
+    width: 20%;
+    transform: rotate(15deg);
+    filter: drop-shadow(#000 -2px 0px 2px);
+    filter: blur(0.8px);
+    animation: kopkey-flotante 3s infinite ease-in-out;
+}
+
+@keyframes kopkey-flotante {
+    0% {
+        transform: translateY(0) rotate(15deg);
+
+    }
+    50% {
+        transform: translateY(-10px) rotate(15deg); /* Flotar hacia arriba */
+    }
+    100% {
+        transform: translateY(0) rotate(15deg);
+
+    }
+}
+
+.torta-de-chocolate {
+    position: absolute;
+    width: 20%;
+    margin-top: -7%;
+    margin-left: 42%;
+    transform: rotate(-10deg);
+    filter: drop-shadow(#000 -2px 0px 2px);
+    filter: blur(0.8px);
+    animation: torta-de-chocolate-flotante 3s infinite ease-in-out;
+}
+
+@keyframes torta-de-chocolate-flotante {
+    0% {
+        transform: translateY(0) rotate(-10deg);
+
+    }
+    50% {
+        transform: translateY(-10px) rotate(-10deg); /* Flotar hacia arriba */
+    }
+    100% {
+        transform: translateY(0) rotate(-10deg);
+
+    }
+}
+
+.kopkey2 {
+    width: 30%;
+    margin-top: -0%;
+    margin-left: 75%;
+    filter: drop-shadow(#000 -2px 0px 2px);
+    transform: rotate(-10deg);
+    overflow: hidden;
+    filter: blur(0.8px);
+    animation: kopkey2-flotante 3s infinite ease-in-out;
+}
+
+@keyframes kopkey2-flotante {
+    0% {
+        transform: translateY(0) rotate(-10deg);
+
+    }
+    50% {
+        transform: translateY(-10px) rotate(-10deg); /* Flotar hacia arriba */
+    }
+    100% {
+        transform: translateY(0) rotate(-10deg);
+
+    }
+}
+
+.flan-chocolate {
+    position: absolute;
+    top: 34%;
+    right: 35%;
+    z-index: 3;
+    width: 30%;
+    animation: callendo 3s forwards;
+}
+
+@keyframes callendo {
+    0% {
+        opacity: 0; /* Comienza invisible */
+        top: -500px; /* Comienza desde arriba */
+    }
+    50% {
+        opacity: 1; /* Se hace visible al 50% de la animación */
+    }
+    100% {
+        opacity: 1; /* Mantiene la visibilidad */
+        top: 33%; /* Caída hasta el centro */
+    }
+}
+
+.plato {
+    width: 40%;
+    position: absolute;
+    bottom: 0%;
+    left: 30%;
+    z-index: 2;
+    animation: deslinsamiento 2s forwards;
+}
+
+@keyframes deslinsamiento {
+    from {
+        left: -600px; /* Comienza desde la izquierda */
+    }
+    to {
+        left: 29%; /* Se desliza hacia el centro */
+    }
+}
+
+/* @media (max-width: 360px) {
+
+    
     .torta {
         width: 35%;
         position: absolute;
@@ -350,8 +490,9 @@ nav ul li {
         transform: rotate(-20deg);
         filter: drop-shadow(#000 -2px 0px 2px);
     }
-}
+} */
 
+/* CELULAR */
 @media (min-width: 361px) and (max-width: 500px) {
 
     /*mi celu*/
@@ -364,7 +505,6 @@ nav ul li {
         filter: drop-shadow(#000 -2px 0px 2px);
         filter: blur(0.8px);
     }
-
     .kopkey {
         width: 35%;
         position: absolute;
@@ -403,12 +543,35 @@ nav ul li {
         width: 60%;
     }
 
+    @keyframes callendo {
+        0% {
+            opacity: 0; /* Comienza invisible */
+            top: -500px; /* Comienza desde arriba */
+        }
+        50% {
+            opacity: 1; /* Se hace visible al 50% de la animación */
+        }
+        100% {
+            opacity: 1; /* Mantiene la visibilidad */
+            top: 25%; /* Caída hasta el centro */
+        }
+    }
+
     .plato {
         width: 80%;
         position: absolute;
         bottom: 41%;
         left: 8%;
         z-index: 2;
+    }
+
+    @keyframes deslinsamiento {
+        from {
+            left: -600px; /* Comienza desde la izquierda */
+        }
+        to {
+            left: 10%; /* Se desliza hacia el centro */
+        }
     }
 
     .texto-contenido {
@@ -483,6 +646,8 @@ nav ul li {
         width: 100%;
         overflow-x: hidden;
     }
+
+    
     
 
     .form-control {
