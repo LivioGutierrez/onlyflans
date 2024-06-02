@@ -355,7 +355,7 @@ nav ul li {
         width: 35%;
         position: absolute;
         bottom: 60%;
-        left: -2%;
+        left: 5%;
         transform: rotate(15deg);
         filter: drop-shadow(#000 -2px 0px 2px);
         filter: blur(0.8px);
@@ -365,7 +365,7 @@ nav ul li {
         width: 35%;
         position: absolute;
         bottom: 50%;
-        left: -10%;
+        left: -5%;
         transform: rotate(15deg);
         filter: drop-shadow(#000 -2px 0px 2px);
         filter: blur(0.8px);
@@ -393,8 +393,8 @@ nav ul li {
 
     .flan-chocolate {
         position: absolute;
-        top: 24%;
-        right: 25%;
+        top: 25%;
+        right: 21%;
         z-index: 3;
         width: 60%;
     }
@@ -403,6 +403,7 @@ nav ul li {
         width: 80%;
         position: absolute;
         bottom: 39%;
+        left: 8%;
         z-index: 2;
     }
     
