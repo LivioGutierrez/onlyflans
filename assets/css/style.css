@@ -441,6 +441,67 @@ nav ul li {
     filter: drop-shadow(#000 2px 0px 2px);
 }
 
+.productos-populares {
+    position: absolute;
+    right: -2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 350px;
+    height: 40px;
+    background-color: #D3AE7B;
+    box-shadow: #000000 -5px 5px 10px;
+}
+
+.productos-populares p {
+    position: relative;
+    top: 10%;
+    font-size: 1.5rem;
+}
+
+.productos-populares img {
+    position: absolute;
+    bottom: 50%;
+    margin-left: -15%;
+    width: 30%;
+    transform: rotate(-15deg);
+    filter: drop-shadow(#000 -2px 0px 2px);
+}
+
+.carusel{
+    margin-top: 10%;
+}
+
+.carousel-item img {
+    height: 340px; /* Ajusta la altura deseada */
+    width: 514px; /* El ancho se ajustará automáticamente para mantener la proporción */
+}
+
+.formulario {
+    background-color: #2C2C2C;
+    color: #ffffff;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.form-control {
+    margin-left: 20%;
+    width: 20%;
+}
+
+.enviar {
+    margin-left: 20%;
+}
+
+.copkey {
+    position: absolute;
+    margin-top: -2%;
+    margin-left: 70%;
+    width: 20%;
+    filter: drop-shadow(#000 -2px 0px 2px);
+}
+
+/*===============================================CELULAR===============================================*/
+
 /* @media (max-width: 360px) {
 
     
@@ -533,7 +594,6 @@ nav ul li {
     }
 } */
 
-/*===============================================CELULAR===============================================*/
 @media (min-width: 361px) and (max-width: 500px) {
 
     /*mi celu*/
