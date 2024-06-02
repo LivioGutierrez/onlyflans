@@ -1,15 +1,17 @@
 html,
 body {
+    height: 100%;
     background-color: #E0C196;
 }
 
 body {
+    min-height: 100%;
     font-family: 'Rozha One', serif;
 }
 
 
 
-.card {
+/* .cards{
     position: absolute;
     bottom: 5%;
     right: 5%;
@@ -64,7 +66,7 @@ body {
             transform: translatey(-5px);
         }
     }
-}
+} */
 
 .banner {
     background: url('https://i.imgur.com/T57flD5.jpg');
@@ -440,5 +442,10 @@ nav ul li {
         left: 60%;
         transform: rotate(-20deg);
         filter: drop-shadow(#000 -2px 0px 2px);
+    }
+
+    .contenedor-card{
+        margin-top: 18%;
+        filter: drop-shadow(#000 2px 0px 2px);
     }
 }
