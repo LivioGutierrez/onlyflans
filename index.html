@@ -49,6 +49,7 @@
 
     <div class="container">
         <div class="row">
+            <!-- IMAGENES -->
             <div class="col-12 contenido">
                 <img class="rounded mx-auto mt-5 d-block img-fluid logo" src="assets/img/icono.png" alt="Logo">
             </div>
@@ -79,6 +80,7 @@
                 <img class="plato" src="assets/img/plato.png" alt="plato">
             </div>
 
+            <!-- TEXTO DE BIENVENIDO -->
             <div class="col-12 texto-contenido">
                 <h1 class="text-center ">Bienvenio a onlyFlans</h1>
                 <p class="text-center  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
@@ -91,17 +93,17 @@
 
         </div>
 
+        <!-- PRODUCTOS -->
         <div class="row">
             <div class="col-12 d-flex justify-content-end productos">
-                <img src="assets/img/galleta.png" alt="">
+                <img src="/assets/img/iconos/galleta.png" alt="galleta">
                 <p>Productos</p>
             </div>
-            
         </div>
 
-
+        <!-- CARDS -->
         <div class="row contenedor-card">
-            <div class="col-12 d-flex justify-content-center mt-4">
+            <div class="col-sm-4 d-flex justify-content-center mt-4">
                 <div class="card " style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -113,7 +115,7 @@
                 </div>
             </div>
 
-            <div class="col-12 d-flex justify-content-center  mt-4">
+            <div class="col-sm-4 d-flex justify-content-center  mt-4">
                 <div class="card " style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -125,7 +127,7 @@
                 </div>
             </div>
 
-            <div class="col-12 d-flex justify-content-center  mt-4">
+            <div class="col-sm-4 d-flex justify-content-center  mt-4">
                 <div class="card " style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -136,6 +138,77 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 d-flex justify-content-end productos-populares d-none d-sm-block">
+                <img src="/assets/img/iconos/pastel.png" alt="">
+                <p>Productos mas populares</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- CARRUCEL -->
+    <div id="carouselExampleIndicators" class="carousel slide mt-5 d-none d-sm-block">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/assets/img/comida-popular/donas.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/assets/img/comida-popular/pastel de chocolate.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/assets/img/comida-popular/torta de hoja.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6 formulario mt-5">
+
+            <h2 class="text-center">Formulario de contacto</h2>
+            
+            <div class="col-sm-6">
+                <img class="copkey" src="/assets/img/copkey.png" alt="copkey">
+            </div>
+            
+            <form>
+                <div class="mb-3 mt-4">
+                    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Nombre">
+                </div>
+                <div class="mb-3 mt-4">
+                    <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Email">
+                </div>
+                <div class="mb-3 mt-4">
+                    <input type="text" class="form-control" placeholder="Motivo de contacto">
+                </div>
+                <!-- <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div> -->
+                <div class="mb-3">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba su mensaje aquí"></textarea>
+                </div>
+                <button type="submit" class="btn btn-light enviar">Enviar</button>
+            </form>
         </div>
     </div>
 

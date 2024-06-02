@@ -260,8 +260,10 @@ nav ul li {
 
 
 
-@media (max-width: 360px) {/*otro celu*/
-    .torta{
+@media (max-width: 360px) {
+
+    /*otro celu*/
+    .torta {
         width: 35%;
         position: absolute;
         bottom: 60%;
@@ -270,7 +272,7 @@ nav ul li {
         filter: drop-shadow(#000 -2px 0px 2px);
     }
 
-    .kopkey{
+    .kopkey {
         width: 40%;
         position: absolute;
         bottom: 50%;
@@ -279,7 +281,7 @@ nav ul li {
         filter: drop-shadow(#000 -2px 0px 2px);
     }
 
-    .torta-de-chocolate{
+    .torta-de-chocolate {
         width: 35%;
         position: absolute;
         bottom: 55%;
@@ -288,7 +290,7 @@ nav ul li {
         filter: drop-shadow(#000 -2px 0px 2px);
     }
 
-    .kopkey2{
+    .kopkey2 {
         width: 35%;
         position: absolute;
         bottom: 48%;
@@ -311,13 +313,13 @@ nav ul li {
         bottom: 40%;
         z-index: 2;
     }
-    
+
     .contenido h1 {
         position: absolute;
         bottom: 38%;
         left: 10%;
     }
-    
+
     .contenido p {
         position: absolute;
         top: 62%;
@@ -340,7 +342,7 @@ nav ul li {
         font-size: 1.4rem;
         color: #ffffff;
     }
-    
+
     .productos img {
         position: relative;
         bottom: 25%;
@@ -350,8 +352,10 @@ nav ul li {
     }
 }
 
-@media (min-width: 361px) and (max-width: 500px) { /*mi celu*/
-    .torta{
+@media (min-width: 361px) and (max-width: 500px) {
+
+    /*mi celu*/
+    .torta {
         width: 35%;
         position: absolute;
         bottom: 60%;
@@ -361,7 +365,7 @@ nav ul li {
         filter: blur(0.8px);
     }
 
-    .kopkey{
+    .kopkey {
         width: 35%;
         position: absolute;
         bottom: 50%;
@@ -371,7 +375,7 @@ nav ul li {
         filter: blur(0.8px);
     }
 
-    .torta-de-chocolate{
+    .torta-de-chocolate {
         width: 30%;
         position: absolute;
         bottom: 57%;
@@ -381,7 +385,7 @@ nav ul li {
         filter: blur(0.8px);
     }
 
-    .kopkey2{
+    .kopkey2 {
         width: 30%;
         position: absolute;
         bottom: 50%;
@@ -406,15 +410,15 @@ nav ul li {
         left: 8%;
         z-index: 2;
     }
-    
-    .texto-contenido{
+
+    .texto-contenido {
         margin-top: 70%;
     }
 
     .contenido h1 {
         width: 100%;
     }
-    
+
     .contenido p {
         width: 100%;
         font-size: 1rem;
@@ -433,10 +437,9 @@ nav ul li {
     .productos p {
         position: relative;
         right: 35%;
-        font-size: 1.4rem;
-        color: #ffffff;
+        font-size: 1.2rem;
     }
-    
+
     .productos img {
         position: relative;
         bottom: 25%;
@@ -445,8 +448,58 @@ nav ul li {
         filter: drop-shadow(#000 -2px 0px 2px);
     }
 
-    .contenedor-card{
+    .contenedor-card {
         margin-top: 35%;
         filter: drop-shadow(#000 2px 0px 2px);
     }
+
+    .productos-populares {
+        position: absolute;
+        right: 0%;
+        margin-top: 10%;
+        width: 80%;
+        height: 40px;
+        background-color: #D3AE7B;
+        box-shadow: #000000 -5px 5px 10px;
+    }
+
+    .productos-populares p {
+        position: relative;
+        right: 20%;
+        font-size: 1.2rem;
+    }
+
+    .productos-populares img {
+        position: relative;
+        bottom: 75%;
+        right: 10%;
+        transform: rotate(-15deg);
+        filter: drop-shadow(#000 -2px 0px 2px);
+    }
+
+    .formulario {
+        background-color: #2C2C2C;
+        color: #ffffff;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+
+    .form-control {
+        margin-left: 5%;
+        width: 50%;
+    }
+
+    .enviar {
+        margin-left: 15%;
+    }
+
+    .copkey {
+        position: absolute;
+        top: 210%;
+        left: 52%;
+        width: 50%;
+        filter: drop-shadow(#000 -2px 0px 2px);
+    }
 }
+
